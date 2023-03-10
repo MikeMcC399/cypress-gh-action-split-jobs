@@ -1,5 +1,5 @@
 name: main
-on: [push, pull_request]
+on: [push, pull_request, workflow_dispatch]
 
 jobs:
   # this job installs dependencies and builds the "dist" folder
